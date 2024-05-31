@@ -1,0 +1,99 @@
+/* General body styling */
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #904646;
+    margin: 20px;
+    padding: 20px;
+}
+
+/* Styling for the main heading */
+h1 {
+    color: rgb(237, 149, 149);
+    margin: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Styling for paragraph text */
+p {
+    color: #aeaeae;
+    text-align: center;
+}
+
+/* Header 2 styling */
+h2 {
+    color: aliceblue;
+    text-align: center;
+}
+
+/* Header styling */
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    width: 100%;
+    position: relative;
+}
+
+/* Navigation styling */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Navigation list items */
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+/* Navigation links */
+nav ul li a {
+    color: rgba(255, 255, 255, 0.786);
+    text-decoration: none;
+}
+
+/* Main content styling */
+main {
+    padding: 20px;
+}
+
+/* Section styling */
+section {
+    margin-bottom: 40px;
+}
+
+/* Image styling */
+img {
+    max-width: 10%;
+    border-radius: 50%;
+    display: block;
+    margin: 20px auto;
+}
+
+/* Header 3 styling */
+h3 {
+    font-size: 25px;
+}
+
+/* Footer styling */
+footer {
+    background-color: #333;
+    color: rgba(209, 41, 41, 0.318);
+    text-align: center;
+    padding: 0px 10;
+    position: fixed;
+    width: 97%;
+    bottom: 0;
+    font-size: 20px;
+}
+/* Link styling when hovered over */
+a:hover {
+    color: #3734c7; /* Change this to your desired hover color */
+    text-decoration: underline; /* Add underline on hover if needed */
+}
+/* General link styling */
+a {
+    color: #ffffff9f; /* Change this to your desired link color */
+    text-decoration: none; /* Remove underline if needed */
+}
