@@ -1,11 +1,13 @@
-document.addEventListener('DOMContentLoaded', (event) => {
-    console.log('Page is fully loaded');
-});
-document.addEventListener('DOMContentLoaded', (event) => {
-    console.log('Page is fully loaded');
-    // Example of adding interactivity
-    const contactLink = document.querySelector('nav ul li a[href="#contact"]');
-    contactLink.addEventListener('click', () => {
-        alert('You can contact me at lucastbos@icloud.com!');
-    });
+document.addEventListener("DOMContentLoaded", function() {
+    console.log("Page is fully loaded");
+
+    var myElement = document.getElementById("myElementId");
+
+    if (myElement) {
+        myElement.addEventListener("click", function() {
+            console.log("Element clicked");
+        });
+    } else {
+        console.error("Element with ID 'myElementId' not found");
+    }
 });
