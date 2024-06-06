@@ -69,7 +69,7 @@ img {
     height: auto; /* Maintains aspect ratio */
     display: block;
     margin: 20px auto;
-    border-radius: 15px; /* Rounds the image borders */
+    border-radius: 50% / 25%; /* Makes the image an ellipse with more horizontal radius */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a soft, subtle shadow to make the image pop */
 }
 
