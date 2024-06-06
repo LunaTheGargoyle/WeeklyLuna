@@ -69,7 +69,7 @@ img {
     height: auto; /* Maintains aspect ratio */
     display: block;
     margin: 20px auto;
-    border-radius: 15px; /* Adds beautifully rounded corners to the image */
+    border-radius: 15px; /* Rounds the image borders */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a soft, subtle shadow to make the image pop */
 }
 
@@ -83,17 +83,19 @@ footer {
     background-color: #333;
     color: rgba(209, 41, 41, 0.318);
     text-align: center;
-    padding: 0px 10;
+    padding: 0px 10px; /* Corrected padding syntax */
     position: fixed;
     width: 97%;
     bottom: 0;
     font-size: 20px;
 }
+
 /* Link styling when hovered over */
 a:hover {
     color: #3734c7; /* Change this to your desired hover color */
     text-decoration: underline; /* Add underline on hover if needed */
 }
+
 /* General link styling */
 a {
     color: #ffffff9f; /* Change this to your desired link color */
