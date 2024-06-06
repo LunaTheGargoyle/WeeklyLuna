@@ -65,10 +65,12 @@ section {
 
 /* Image styling */
 img {
-    max-width: 10%;
-    border-radius: 50%;
+    max-width: 50%; /* Ensures the image takes up at most half the width of its container */
+    height: auto; /* Maintains aspect ratio */
     display: block;
     margin: 20px auto;
+    border-radius: 15px; /* Adds beautifully rounded corners to the image */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a soft, subtle shadow to make the image pop */
 }
 
 /* Header 3 styling */
