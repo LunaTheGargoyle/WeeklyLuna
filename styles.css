@@ -1,28 +1,30 @@
 /* General body styling */
 body {
     font-family: 'Times New Roman', Times, serif;
-    background-color: #904646;
+    background-color: rgba(49, 54, 53, 0.649);
     margin: 20px;
     padding: 20px;
 }
 
 /* Styling for the main heading */
 h1 {
-    color: rgb(237, 149, 149);
+    color: rgba(150, 189, 185, 0.649);
     margin: 25px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 /* Styling for paragraph text */
 p {
-    color: #aeaeae;
-    text-align: center;
+    color: rgba(0, 0, 0, 0.649);
+    text-align: left;
+    width: 50%;
 }
 
 /* Header 2 styling */
 h2 {
-    color: aliceblue;
-    text-align: center;
+    color: rgba(0, 0, 0, 0.442);
+    text-align: left;
+    margin: 5px;
 }
 
 /* Header styling */
@@ -33,6 +35,7 @@ header {
     text-align: center;
     width: 100%;
     position: relative;
+    border-radius: 10%/45%;
 }
 
 /* Navigation styling */
@@ -51,6 +54,7 @@ nav ul li {
 nav ul li a {
     color: rgba(255, 255, 255, 0.786);
     text-decoration: none;
+    text-align: center;
 }
 
 /* Main content styling */
@@ -69,7 +73,7 @@ img {
     height: auto; /* Maintains aspect ratio */
     display: block;
     margin: 20px auto;
-    border-radius: 50% / 25%; /* Makes the image an ellipse with more horizontal radius */
+    border-radius: 100% / 85%; /* Makes the image an ellipse with more horizontal radius */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a soft, subtle shadow to make the image pop */
 }
 
@@ -80,24 +84,28 @@ h3 {
 
 /* Footer styling */
 footer {
-    background-color: #333;
+    background-color: #60636497;
     color: rgba(209, 41, 41, 0.318);
     text-align: center;
-    padding: 0px 10px; /* Corrected padding syntax */
+    padding: 15px 10px; /* Corrected padding syntax */
     position: fixed;
-    width: 97%;
+    width: 90%;
     bottom: 0;
     font-size: 20px;
 }
 
 /* Link styling when hovered over */
-a:hover {
+k:hover {
     color: #3734c7; /* Change this to your desired hover color */
     text-decoration: underline; /* Add underline on hover if needed */
 }
 
 /* General link styling */
 a {
-    color: #ffffff9f; /* Change this to your desired link color */
+    color: #04353ba3; /* Change this to your desired link color */
     text-decoration: none; /* Remove underline if needed */
+    text-align: center;
+}
+k {
+    color: rgba(0, 0, 0, 0.649);
 }
