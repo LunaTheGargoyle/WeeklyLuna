@@ -4,7 +4,6 @@ body {
     background-color: rgba(9, 54, 43, 0.2);
     margin: 20px;
     padding: 20px;
-    text-align: center;
 }
 
 /* Styling for the main heading */
@@ -18,7 +17,7 @@ h1 {
 p {
     color: rgba(0, 0, 0, 0.649);
     text-align: left;
-    width: 50%;
+    width: 75%;
 }
 
 /* Header 2 styling */
