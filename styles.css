@@ -11,13 +11,14 @@ h1 {
     color: rgba(150, 189, 185, 0.649);
     margin: 25px;
     font-family: Georgia, 'Arial', Times, serif;
+    text-align: center;
 }
 
 /* Styling for paragraph text */
 p {
     color: rgba(0, 0, 0, 0.649);
-    text-align: left;
-    width: 75%;
+    text-align: center;
+    width: 100%;
 }
 
 /* Header 2 styling */
@@ -32,7 +33,7 @@ header {
     background-color: #333;
     color: black;
     padding: 20px 0;
-    text-align: left;
+    text-align: center;
     width: 100%;
     position: relative;
     border-radius: 10%/45%;
