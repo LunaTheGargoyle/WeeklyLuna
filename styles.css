@@ -23,16 +23,16 @@ p {
 /* Header 2 styling */
 h2 {
     color: rgba(0, 0, 0, 0.442);
-    text-align: left;
-    margin: 10px;
+    text-align: center;
+    margin: 20;
 }
 
 /* Header styling */
 header {
     background-color: #333;
-    color: white;
-    padding: 10px 0;
-    text-align: center;
+    color: black;
+    padding: 20px 0;
+    text-align: left;
     width: 100%;
     position: relative;
     border-radius: 10%/45%;
