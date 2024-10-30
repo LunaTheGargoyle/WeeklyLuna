@@ -73,8 +73,8 @@ img {
     height: auto; /* Maintains aspect ratio */
     display: block;
     margin: 20px auto;
-    border-radius: 100% / 85%; /* Makes the image an ellipse with more horizontal radius */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a soft, subtle shadow to make the image pop */
+    border-radius: 100% / 90%; /* Makes the image an ellipse with more horizontal radius */
+    box-shadow: 10 8px 20px rgba(0, 0, 0, 0.1); /* Adds a soft, subtle shadow to make the image pop */
 }
 
 /* Header 3 styling */
